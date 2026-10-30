@@ -35,6 +35,8 @@ export function bindInput(onSpacePress) {
 
     inputState[direction] = false;
   });
+
+  window.addEventListener("blur", resetInput);
 }
 
 export function resetInput() {

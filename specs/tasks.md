@@ -11,14 +11,14 @@
 - [x] Configurar a transição da tela inicial para a partida ao pressionar Espaço.
 
 ## Tarefa 3: Controlar o dev e os limites do mapa
-- Capturar as teclas ←, →, A e D via listener do teclado.
-- Atualizar a posição horizontal do dev com velocidade constante.
-- Impedir que o dev saia da área de jogo.
+- [x] Capturar as teclas ←, →, A e D via listener do teclado.
+- [x] Atualizar a posição horizontal do dev com velocidade constante.
+- [x] Impedir que o dev saia da área de jogo.
 
 ## Tarefa 4: Gerar itens, colisões e remoção
-- Criar a lógica de spawn de cafés e bugs em posições aleatórias no topo.
-- Fazer os itens caírem com velocidade variável e crescente ao longo do tempo.
-- Detectar colisões com o dev e remover os itens afetados.
+- [x] Criar a lógica de spawn de cafés e bugs em posições aleatórias no topo.
+- [x] Fazer os itens caírem com velocidade variável e crescente ao longo do tempo.
+- [x] Detectar colisões com o dev e remover os itens afetados.
 
 ## Tarefa 5: Implementar pontuação, vidas e dificuldade
 - Aumentar a pontuação em 1 ao coletar café.

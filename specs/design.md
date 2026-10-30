@@ -76,13 +76,18 @@ A tabela abaixo lista os valores que devem ficar no objeto `CONFIG`, exportado d
 | `PLAYER_WIDTH` | número | largura visual do dev. |
 | `PLAYER_HEIGHT` | número | altura visual do dev. |
 | `PLAYER_SPEED` | número | velocidade horizontal do dev em px/s. |
+| `PLAYER_BOTTOM_MARGIN` | número | distância entre o dev e a borda inferior da área. |
 | `PLAYER_START_LIVES` | número | inicia em 3 vidas. |
 | `ITEM_SIZE` | número | tamanho visual do café e do bug. |
 | `ITEM_SPAWN_INTERVAL` | número | intervalo inicial para gerar itens. |
 | `ITEM_SPAWN_MIN_INTERVAL` | número | menor intervalo possível para manter a dificuldade crescente. |
+| `ITEM_SPAWN_INTERVAL_STEP` | número | redução do intervalo de spawn conforme a dificuldade avança. |
+| `ITEM_COFFEE_CHANCE` | número | probabilidade de um item gerado ser café. |
+| `ITEM_FALL_SPEED_VARIATION` | número | faixa de variação aleatória da velocidade dos itens. |
 | `ITEM_FALL_SPEED` | número | velocidade base de queda em px/s. |
 | `ITEM_FALL_SPEED_STEP` | número | incremento por aumento de dificuldade. |
 | `DIFFICULTY_STEP_TIME` | número | tempo entre aumentos de dificuldade. |
+| `DIFFICULTY_INCREASE_STEP` | número | aumento do fator de dificuldade a cada intervalo. |
 | `GAME_TITLE` | string | nome exibido na tela inicial. |
 | `START_SCREEN_TEXT` | string | texto da tela inicial: "pressione Espaço para começar". |
 | `START_SCREEN_TITLE_Y` | número | posição vertical do título da tela inicial. |
