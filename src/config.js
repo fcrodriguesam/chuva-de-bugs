@@ -1,0 +1,24 @@
+const CONFIG = {
+  GAME_WIDTH: 480,
+  GAME_HEIGHT: 640,
+  PLAYER_WIDTH: 42,
+  PLAYER_HEIGHT: 42,
+  PLAYER_SPEED: 330,
+  PLAYER_START_LIVES: 3,
+  ITEM_SIZE: 30,
+  ITEM_SPAWN_INTERVAL: 1.2,
+  ITEM_SPAWN_MIN_INTERVAL: 0.45,
+  ITEM_FALL_SPEED: 160,
+  ITEM_FALL_SPEED_STEP: 24,
+  DIFFICULTY_STEP_TIME: 12,
+  BACKGROUND_COLOR: "#0f172a",
+  GRID_COLOR: "#1f2937",
+  TEXT_COLOR: "#e2e8f0",
+  ACCENT_COLOR: "#22c55e",
+  DANGER_COLOR: "#ef4444",
+  START_SCREEN_TEXT: "pressione Espaço para começar",
+  GAME_OVER_TEXT: "pressione Espaço para jogar de novo",
+  LOCAL_STORAGE_KEY: "chuva-de-bugs-best-score"
+};
+
+export default CONFIG;

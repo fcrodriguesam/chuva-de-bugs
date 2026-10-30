@@ -1,9 +1,9 @@
 # Tarefas: Chuva de Bugs
 
 ## Tarefa 1: Preparar a estrutura base do jogo
-- Criar a página HTML e o CSS base com área centralizada e tema escuro de editor.
-- Organizar os módulos JavaScript (`main`, `config`, `input`, `game`, `render`, `storage`).
-- Definir o objeto `CONFIG` com os valores ajustáveis do jogo.
+- [x] Criar a página HTML e o CSS base com área centralizada e tema escuro de editor.
+- [x] Organizar os módulos JavaScript (`main`, `config`, `input`, `game`, `render`, `storage`).
+- [x] Definir o objeto `CONFIG` com os valores ajustáveis do jogo.
 
 ## Tarefa 2: Implementar o estado inicial e os fluxos de tela
 - Definir os estados `initial`, `playing` e `gameOver` no objeto principal do jogo.
