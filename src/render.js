@@ -45,21 +45,26 @@ export function drawHud(ctx, gameState) {
   ctx.fillText(`❤️`.repeat(gameState.lives), CONFIG.GAME_WIDTH - 16, 28);
 }
 
-export function drawScreenText(ctx, text, size = 18) {
+export function drawScreenText(ctx, text, size = 18, y = CONFIG.GAME_HEIGHT / 2) {
   ctx.fillStyle = CONFIG.TEXT_COLOR;
   ctx.font = `${size}px Arial`;
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
-  ctx.fillText(text, CONFIG.GAME_WIDTH / 2, CONFIG.GAME_HEIGHT / 2);
+  ctx.fillText(text, CONFIG.GAME_WIDTH / 2, y);
 }
 
 export function renderGame(ctx, gameState) {
   drawBackground(ctx);
-  drawHud(ctx, gameState);
 
   if (gameState.screen === "initial") {
-    drawScreenText(ctx, CONFIG.START_SCREEN_TEXT, 20);
-  } else if (gameState.screen === "gameOver") {
+    drawScreenText(ctx, CONFIG.GAME_TITLE, 32, CONFIG.START_SCREEN_TITLE_Y);
+    drawScreenText(ctx, CONFIG.START_SCREEN_TEXT, 20, CONFIG.START_SCREEN_INSTRUCTION_Y);
+    return;
+  }
+
+  drawHud(ctx, gameState);
+
+  if (gameState.screen === "gameOver") {
     const lines = [
       `Pontuação: ${gameState.score}`,
       `Recorde: ${gameState.bestScore}`,

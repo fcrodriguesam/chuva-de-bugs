@@ -16,7 +16,10 @@ const CONFIG = {
   TEXT_COLOR: "#e2e8f0",
   ACCENT_COLOR: "#22c55e",
   DANGER_COLOR: "#ef4444",
+  GAME_TITLE: "Chuva de Bugs",
   START_SCREEN_TEXT: "pressione Espaço para começar",
+  START_SCREEN_TITLE_Y: 270,
+  START_SCREEN_INSTRUCTION_Y: 330,
   GAME_OVER_TEXT: "pressione Espaço para jogar de novo",
   LOCAL_STORAGE_KEY: "chuva-de-bugs-best-score"
 };

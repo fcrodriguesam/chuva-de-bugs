@@ -6,9 +6,9 @@
 - [x] Definir o objeto `CONFIG` com os valores ajustáveis do jogo.
 
 ## Tarefa 2: Implementar o estado inicial e os fluxos de tela
-- Definir os estados `initial`, `playing` e `gameOver` no objeto principal do jogo.
-- Inicializar o dev, pontuação, vidas e recorde ao abrir a página.
-- Configurar a transição da tela inicial para a partida ao pressionar Espaço.
+- [x] Definir os estados `initial`, `playing` e `gameOver` no objeto principal do jogo.
+- [x] Inicializar o dev, pontuação, vidas e recorde ao abrir a página.
+- [x] Configurar a transição da tela inicial para a partida ao pressionar Espaço.
 
 ## Tarefa 3: Controlar o dev e os limites do mapa
 - Capturar as teclas ←, →, A e D via listener do teclado.

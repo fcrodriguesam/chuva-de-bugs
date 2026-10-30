@@ -83,7 +83,10 @@ A tabela abaixo lista os valores que devem ficar no objeto `CONFIG`, exportado d
 | `ITEM_FALL_SPEED` | número | velocidade base de queda em px/s. |
 | `ITEM_FALL_SPEED_STEP` | número | incremento por aumento de dificuldade. |
 | `DIFFICULTY_STEP_TIME` | número | tempo entre aumentos de dificuldade. |
+| `GAME_TITLE` | string | nome exibido na tela inicial. |
 | `START_SCREEN_TEXT` | string | texto da tela inicial: "pressione Espaço para começar". |
+| `START_SCREEN_TITLE_Y` | número | posição vertical do título da tela inicial. |
+| `START_SCREEN_INSTRUCTION_Y` | número | posição vertical da instrução inicial. |
 | `GAME_OVER_TEXT` | string | texto da tela de fim de jogo: "pressione Espaço para jogar de novo". |
 | `LOCAL_STORAGE_KEY` | string | chave para guardar o recorde no navegador. |
 
